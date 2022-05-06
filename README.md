@@ -21,7 +21,7 @@
     curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
     EXTERNAL_URL="http://54.144.17.106" yum install -y gitlab-ce
 # Default User and password
-  username: ```root```
+  username: ```root``` \n
   password: ```we can get password at /etc/gitlab/initial_root_password```
 # Note: 
   If you want to change your main URL, you can configure it in the GitLab main configuration file /etc/gitlab/gitlab.rb in the external_url section. Once changed, don’t  forget to reconfigure gitlab to apply the recent changes in the configuration file using the following command.
